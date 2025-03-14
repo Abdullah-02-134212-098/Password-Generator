@@ -1,0 +1,91 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+/* Center the container */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+  color: white;
+}
+
+/* Main container */
+.container {
+  background-color: #3a3f47;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 320px;
+  text-align: center;
+}
+
+/* Header */
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Input and Copy button */
+.nav1 {
+  display: flex;
+  /* gap: 10px; */
+
+  margin-bottom: 1rem;
+}
+
+.nav1 input {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #333;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.nav1 button {
+  background: #61dafb;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.nav1 button:hover {
+  background: #4fa3d1;
+}
+
+/* Slider section */
+.nav2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+#slider {
+  width: 100%;
+}
+
+/* Checkboxes */
+.nav3 {
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.nav3 label {
+  margin-left: 5px;
+}
